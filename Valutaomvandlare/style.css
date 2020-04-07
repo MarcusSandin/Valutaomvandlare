@@ -1,0 +1,82 @@
+body{
+    margin: auto;
+    /* background-color:rgb(189, 214, 255,0.9); */
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    height: 650px;
+}
+
+#mainContainer{
+    margin-top: 100px;
+    height: 400px;
+    width: 600px;
+    /* background-color: rgb(251, 255, 189); */
+    background-image: linear-gradient(-20deg, #bdf19f 0%, #f5f8a5 60%);
+    /* background-image: linear-gradient(-20deg, #e9defa 0%, #f5f8a5 60%); */
+
+    border: 7px solid rgba(21,227,234,0.14);
+    border-radius: 21px;
+    
+    box-shadow: 0px 10px 30px rgba(115, 151, 250, 0.322);
+    /* margin: 5px; */
+    /* display: flex;
+    flex-direction: column; 
+    justify-content: space-around; */
+}
+
+#innerContainer{
+    padding-left: 25px;
+    text-align: center;
+}
+
+#headerText{
+    padding-top: 15px;
+    color: #2c3952d5;
+    text-shadow: -1px -1px 1px rgba(255,255,255,0.7), 2px 2px 2px rgba(200, 223, 224, 0.795);
+}
+.inputContainer{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+#curDropdown1{
+    margin-left: 30px;
+}
+#curDropdown2{
+    margin-left: 280px
+    
+}
+#buyDiv
+{
+    width: 85%;
+    height: 60px;
+    /* background-color: rgb(247, 215, 245); */
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    margin-top: 80px;
+    margin-left: 30px;
+    padding: 10px;
+}
+#buyText{
+    float: left;
+
+    font-family: Georgia, serif;
+    font-size: 16px;
+    letter-spacing: -1px;
+    word-spacing: 2.4px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+        
+    }
+#selectBuyOrSell{
+    float: left;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+#orderBtn{
+    margin-top: 5px;
+    margin-left: 30px;
+    float: left;
+}
